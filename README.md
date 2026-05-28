@@ -1,6 +1,6 @@
 # JResource Monitor
 
-[![Maven Central](https://img.shields.io/maven-central/v/org.flossware/jresource-monitor.svg?label=Maven%20Central)](https://central.sonatype.com/artifact/org.flossware/jresource-monitor)
+[![Maven Central](https://img.shields.io/maven-central/v/org.flossware/resource-monitor-java.svg?label=Maven%20Central)](https://central.sonatype.com/artifact/org.flossware/resource-monitor-java)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Resource usage tracking and quota enforcement for Java applications.
@@ -21,7 +21,7 @@ Resource usage tracking and quota enforcement for Java applications.
 ```xml
 <dependency>
     <groupId>org.flossware</groupId>
-    <artifactId>jresource-monitor</artifactId>
+    <artifactId>resource-monitor-java</artifactId>
     <version>1.0</version>
 </dependency>
 ```
@@ -29,7 +29,7 @@ Resource usage tracking and quota enforcement for Java applications.
 ### Gradle
 
 ```gradle
-implementation 'org.flossware:jresource-monitor:1.0'
+implementation 'org.flossware:resource-monitor-java:1.0'
 ```
 
 ## Quick Start
@@ -193,9 +193,9 @@ Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for gui
 
 ## Links
 
-- [GitHub Repository](https://github.com/FlossWare/jresource-monitor)
-- [Issue Tracker](https://github.com/FlossWare/jresource-monitor/issues)
-- [Javadoc](https://javadoc.io/doc/org.flossware/jresource-monitor)
+- [GitHub Repository](https://github.com/FlossWare/resource-monitor-java)
+- [Issue Tracker](https://github.com/FlossWare/resource-monitor-java/issues)
+- [Javadoc](https://javadoc.io/doc/org.flossware/resource-monitor-java)
 
 ## Changelog
 
