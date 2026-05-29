@@ -37,7 +37,7 @@ implementation 'org.flossware:resource-monitor-java:1.0'
 ### Capturing Resource Snapshots
 
 ```java
-import org.flossware.jresource.ResourceSnapshot;
+import org.flossware.resource.ResourceSnapshot;
 
 // Capture current resource usage
 ResourceSnapshot snapshot = new ResourceSnapshot(
@@ -57,8 +57,8 @@ System.out.println("Thread count: " + snapshot.threadCount());
 ### Enforcing Resource Quotas
 
 ```java
-import org.flossware.jresource.ResourceQuota;
-import org.flossware.jresource.ResourceQuotaExceededException;
+import org.flossware.resource.ResourceQuota;
+import org.flossware.resource.ResourceQuotaExceededException;
 
 // Define resource limits
 ResourceQuota quota = ResourceQuota.builder()
@@ -80,7 +80,7 @@ try {
 ### Complete Example
 
 ```java
-import org.flossware.jresource.*;
+import org.flossware.resource.*;
 import java.lang.management.ManagementFactory;
 import java.lang.management.MemoryMXBean;
 import java.lang.management.ThreadMXBean;
